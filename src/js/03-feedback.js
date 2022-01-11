@@ -9,7 +9,7 @@ let parsedInputs = {
     email: '',
     message: ''
 };
-
+console.log(parsedInputs)
 
 let savedInputs = localStorage.getItem("feedback-form-state");
 
@@ -47,3 +47,4 @@ function handleSubmit(e) {
     e.currentTarget.reset();
     localStorage.removeItem("feedback-form-state");
 }
+  
